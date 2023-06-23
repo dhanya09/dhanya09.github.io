@@ -1,0 +1,78 @@
+@importurl('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300&display=swap');
+
+h1 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: comic sans ms;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about {
+    background-color: rgb(0, 0, 0);
+    font-family: comic sans ms;
+    font-size: large;
+    color:white;
+    margin-right:auto;
+    padding-left: 15px;
+}
+
+@keyframes rainbow {
+    100%,
+     0% {
+       color:#ffa1a1;
+     }
+     12.5% {
+       color:#ffcba1;
+     }
+     25% {
+       color:#fff4a1;
+     }
+     37.5% {
+       color:#b4ffa1;
+     }
+     50% {
+       color:#a1ffec;
+     }
+     62.5% {
+       color:#a1c3ff;
+     }
+     75% {
+       color:#c3a1ff;
+     }
+     87.5% {
+       color:#ffa1d8;
+     }
+   }
+   .my-name {
+     animation:rainbow 10s infinite linear;
+     font-size:30px;
+     x-axis: 60px;
+     y-axis: 60px;
+   }
+
+    @keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+  .cat-emoji {
+    font-size: 30px;
+    animation: spin 10s infinite linear;
+  }
+
+  #spinning-cat-emoji {
+    display: inline-block;
+    left: 60;
+    top: 35px;
+    position: absolute;
+  }
+  
+  #flying-cat-emoji {
+    display: block;
+  }
+
+
+  .flex-container {
+    display: flex;
+  }
