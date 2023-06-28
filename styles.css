@@ -6,6 +6,7 @@ h1 {
   font-family: comic sans ms;
   margin-right: auto;
   margin-left: auto;
+  width:100%;
 }
 
 .about {
@@ -15,7 +16,7 @@ h1 {
     color:white;
     margin-right:auto;
     padding-left: 15px;
-    width:100%;
+    
 }
 
 @keyframes rainbow {
